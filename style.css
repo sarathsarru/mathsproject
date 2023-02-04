@@ -1,0 +1,30 @@
+.parent{
+    background-color: grey;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+}
+.child1{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    flex-grow: 1;
+    order: 3;
+}
+.child2{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    order: 1;
+}
+.child3{
+    background-color: yellow;
+    order: 4;
+}
+.child4{
+    background-color: red;
+    order: 2;
+}
